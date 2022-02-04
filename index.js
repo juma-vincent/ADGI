@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res)=>{
-    res.send('Welcome to Siaya county');
+    res.send('Hi Winnie, welcome to GIMORES');
 })
 
 // if(process.env.NODE_ENV === 'production'){
