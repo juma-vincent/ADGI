@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res)=>{
-    res.send('Welcome');
-})
+// app.get('/', (req, res)=>{
+//     res.send('Welcome');
+// })
 
 if(process.env.NODE_ENV === 'production'){
     app.use(express.static('client/build')); 
