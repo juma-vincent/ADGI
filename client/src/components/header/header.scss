@@ -11,31 +11,34 @@
     
   
         .logo-container {
-          height: 90px;
+          height: 160px;
           width: 30%;
-          padding-top: 10px;
+          margin-top: -10px;
         //   border: black solid 1px;
           display: flex;
           justify-content: center;
+        //   align-items: center;
   
               .logo {
-                width: 50%;
-                height: 90px;
-                align-self: center;
+                width: 65%;
+                height: 160px;
+                align-self: flex-end;
                 border-radius: 50%;
                 // border:rgb(83, 1, 1);
                 // font-size: 37px;
                         
   
                 @media screen and (max-width: 800px) {
-                  height: 80px;
-                  width: 96%;
+                  height: 110px;
+                  width: 70%;
                   margin-top: 20px;
+                  margin-bottom: -30px;
                 }
               }
            @media screen and (max-width: 800px) {
             height: 80px;
             width: 60%;
+            justify-content: flex-start;
            }  
           
         }

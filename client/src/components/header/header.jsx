@@ -23,8 +23,7 @@ const Header = () => {
             
     <div className="homepage-header">
       <Link to="/" className="logo-container" style={{'color':'white', 'fontSize':'23px'}}>
-        {/* <img src="/images/logo-1.png" alt="" className="logo" />          */}
-        Girls and Mothers Rescue Services 
+        <img src="/images/logo-white.png" alt="" className="logo" />      
         
       </Link>
       
