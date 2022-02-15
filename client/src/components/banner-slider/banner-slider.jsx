@@ -6,24 +6,34 @@ import './banner-slider.scss';
 import { ImageSliderContainer} from './banner-slider.styles';
 
 const bannerData=[
-{title:'We care for mothers and girls', 
-subtitle:'', 
+{title:'Girls and Mothers Rescue Services', 
+subtitle:'A safe haven for girls and mothers', 
 buttonText:'',
 link:'/contact',
-imageUrl:'/images/img2.jpg'},
+imageUrl:'/images/img1.jpg'},
 
-{title:'They are special', 
+{title:'Victims of GBV', 
 subtitle:'', 
 buttonText:'',
 // link:'https://api.whatsapp.com/send?phone=254701032469',
 link:'/event-booking',
-imageUrl:'/images/img1.jpg'},
+imageUrl:'/images/img2.jpg'},
 
 {title:'', 
 subtitle:'', 
 buttonText:'',
 link:'/contact',
 imageUrl:'/images/img3.jpg'},
+{title:'', 
+subtitle:'', 
+buttonText:'',
+link:'/contact',
+imageUrl:'/images/img4.jpg'},
+{title:'', 
+subtitle:'', 
+buttonText:'',
+link:'/contact',
+imageUrl:'/images/img5.jpg'},
 
 ]
 
