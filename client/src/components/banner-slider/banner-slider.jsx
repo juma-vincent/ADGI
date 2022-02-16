@@ -12,7 +12,8 @@ buttonText:'',
 link:'/contact',
 imageUrl:'/images/img1.jpg'},
 
-{title:'Victims of GBV', 
+{title:'We seek solutions to women’s rights violation', 
+
 subtitle:'', 
 buttonText:'',
 // link:'https://api.whatsapp.com/send?phone=254701032469',

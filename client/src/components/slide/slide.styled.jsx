@@ -11,8 +11,8 @@ export const ImageWrapper = styled.div`
     background-repeat: no-repeat;
     background-position: center;   
     background-image: linear-gradient(
-      rgba(8, 11, 44, 0.88),
-      rgba(8, 11, 44, 0.58)
+      rgba(63, 19, 13, 0.908) ,
+      rgba(63, 19, 13, 0.518) 
             ),
             url(${props=> props.imageUrl});    
     
@@ -56,7 +56,7 @@ export const TextAndButtonContainer = styled.div`
                         font-size:20px;
                         color: white;
                         text-align: start;
-                        animation: moveInFromLeftt 6s ease-out infinite;                        
+                        animation: moveInFromLeftt 10s ease-out infinite;                        
                         
                         
                   }
@@ -71,7 +71,7 @@ export const TextAndButtonContainer = styled.div`
                   border: rgba(21, 28, 58, 0.38);
                   cursor: pointer;
                   font-family: Yu Gothic UI;
-                  animation: moveInFromRightt 6s ease-out infinite;
+                  animation: moveInFromRightt 10s ease-out infinite;
                   
                   
                   
@@ -90,6 +90,14 @@ export const TextAndButtonContainer = styled.div`
               opacity: 1;
               transform: translateX(20px);
             }            
+            
+          }
+
+          @keyframes moveInFromLeftt {
+            20%  {
+              opacity: 1;
+              transform: translateX(20px);
+            }
             
           }
           
