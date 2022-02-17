@@ -1,17 +1,16 @@
 import React from "react";
-import { ReactComponent as TruckIcon } from "../../assets/icons/truck.svg";
-import { ReactComponent as PhoneIcon } from "../../assets/icons/phone.svg";
-import { ReactComponent as LockIcon } from "../../assets/icons/locked.svg";
-import { ReactComponent as EventTentIcon } from "../../assets/icons/event-tent.svg";
-import { ReactComponent as TrophyIcon } from "../../assets/icons/trophy.svg";
+import { ReactComponent as HealthIcon } from "../../assets/icons/health.svg";
+import { ReactComponent as EducationIcon } from "../../assets/icons/education.svg";
 import { ReactComponent as HouseIcon } from "../../assets/icons/house.svg";
+import { ReactComponent as HumanRightsIcon } from "../../assets/icons/human-rights.svg";
+
 import "./features.scss";
 
 const Features = () => {
   return (
     <div className="features-container">
       <div className="feature">
-        <TruckIcon className="icon" />
+        <HumanRightsIcon className="icon" />
 
         <div className="content">
           <h3>Promoting Human Rights</h3>
@@ -21,7 +20,7 @@ const Features = () => {
         </div>
       </div>
       <div className="feature">
-        <TrophyIcon className="icon" />
+        <HouseIcon className="icon" />
         <div className="content">
           <h3>Housing and Settlement</h3>
           <p>
@@ -32,7 +31,7 @@ const Features = () => {
       
       
       <div className="feature">
-        <PhoneIcon className="icon" />
+        <EducationIcon className="icon"/>
         <div className="content">
           <h3>Education</h3>
           <p>
@@ -43,7 +42,7 @@ const Features = () => {
       </div>
 
       <div className="feature">
-        <EventTentIcon className="icon" />
+        <HealthIcon className="icon" />
 
         <div className="content">
           <h3>Health and Welfare</h3>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import BannerSlider from '../../components/banner-slider/banner-slider';
+import Features from '../../components/features/features';
 import './homepage.scss';
 
 const Homepage = () => {
@@ -11,6 +12,7 @@ const Homepage = () => {
             <div>
                 <BannerSlider autoPlay={10} />
             </div>
+
             <div className='about' >
                 <h1>About Us</h1>
                 <div className='about-text'>
@@ -29,6 +31,11 @@ const Homepage = () => {
                 normal social life and wholesomeness.
                 </div>
             
+            </div>
+
+            <div className='features-wrapper'>
+                <div className='features-title'>What We Do</div>
+                <Features/>
             </div>
         </div>
      );

@@ -27,8 +27,13 @@
                 // border:rgb(83, 1, 1);
                 // font-size: 37px;
                         
-  
                 @media screen and (max-width: 800px) {
+                    height: 110px;
+                    width: 45%;
+                    margin-top: 20px;
+                    margin-bottom: -30px;
+                }
+                @media screen and (max-width: 600px) {
                   height: 110px;
                   width: 70%;
                   margin-top: 20px;
