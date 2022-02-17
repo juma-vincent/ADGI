@@ -5,7 +5,7 @@ export const DotContainer = styled.span`
     margin-right: 5px;
     cursor: pointer;
     border-radius: 50%;
-    background: ${(props)=> props.active ? 'rgba(49, 197, 36, 0.8)' : 'rgba(21, 28, 58, 0.68)'};
+    background: ${(props)=> props.active ? 'rgba(164, 87, 236, 0.8)' : 'rgba(21, 28, 58, 0.68)'};
 `;
 
 export const DotsContainer = styled.div`

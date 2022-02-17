@@ -5,10 +5,13 @@ const Footer = () => {
   return (
     <div id='contact' className="footer-container">
       <div className="footer">
-        <h4 className="title"> Contact Information</h4>
-        <small> Email: njokilesootia@gmail.com </small> <br />
-        <small>Phone: +254 701 032469</small> <br />
-        <small>&copy; 2021 Lesootiakdecore . All rights reserved.</small>
+        <h3 className="title"> Contact Information</h3>
+        <small> Email: julianwinnie11@gmail.com </small> <br />
+        <small>Phone: +254 702549165</small> <br />
+        <small>P.O BOX 7552-40100,</small><br />
+        <small>Kisumu, Kenya.</small><br />
+
+        <small>&copy; 2022 GIMORES . All rights reserved.</small>
       </div>
     </div>
   );

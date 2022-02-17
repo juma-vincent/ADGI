@@ -19,21 +19,7 @@
         margin-left: 5%;
         
     }
-
-    .features-wrapper{
-        background-color: lavender;
-        border: solid 3px red;
-
-        .features-title{
-        width: 72%;
-        text-align: start;
-        margin: 0 auto;
-        font-size: 25px;
-        color: rgb(243, 86, 191);
-        font-weight: 650;
-
-        }
-    }
+    
 
     @media screen and (max-width: 900px) {
         h1{
@@ -68,5 +54,21 @@
 
     @media screen and (max-width: 350px) {
         margin-bottom: 190px;
+    }
+}
+
+.features-wrapper{
+    background-color: rgb(238, 238, 253);
+    padding: 70px 0px;
+    // border: solid 3px red;
+
+    .features-title{
+    width: 72%;
+    text-align: start;
+    margin: 0 auto;
+    font-size: 25px;
+    color: rgb(135, 82, 185);
+    font-weight: bold;
+    
     }
 }

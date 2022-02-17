@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import BannerSlider from '../../components/banner-slider/banner-slider';
 import Features from '../../components/features/features';
+import Footer from '../../components/footer/footer';
 import './homepage.scss';
 
 const Homepage = () => {
@@ -36,6 +37,9 @@ const Homepage = () => {
             <div className='features-wrapper'>
                 <div className='features-title'>What We Do</div>
                 <Features/>
+            </div>
+            <div>
+                <Footer/>
             </div>
         </div>
      );
