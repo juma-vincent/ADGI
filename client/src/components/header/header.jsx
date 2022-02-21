@@ -1,88 +1,78 @@
-import React from "react";
-import "./header.scss";
-import { Link } from "react-router-dom";
-// import { connect } from "react-redux";
+// import React from "react";
+// import "./header.scss";
+// import { Link } from "react-router-dom";
+// // import { connect } from "react-redux";
 
-import Option from "../option/option";
+// import Option from "../option/option";
 // import CustomLink from "../custom-link/custom-link";
-// import { withRouter } from 'react-router-dom';
-// import MenuIcon from "../menu-icon/menu-icon";
-// import { ReactComponent as DownArrow} from '../../assets/icons/down-arrow11.svg';
 
-// import { toggleNavigationOpen } from "../../redux/modals/modal-actions";
-// import DropDownMenu from "../drop-down-menu/drop-down-menu";
-// import CartIcon from "../cart-icon/cart-icon";
-// import CartDropdown from "../cart-dropdown/cart-dropdown";
+// // import MenuIcon from "../menu-icon/menu-icon";
+// // import { ReactComponent as DownArrow} from '../../assets/icons/down-arrow11.svg';
+
+// // import { toggleNavigationOpen } from "../../redux/modals/modal-actions";
+// // import DropDownMenu from "../drop-down-menu/drop-down-menu";
+// // import CartIcon from "../cart-icon/cart-icon";
+// // import CartDropdown from "../cart-dropdown/cart-dropdown";
+// import { useLocation } from "react-router-dom";
 
 
 
+import React from 'react';
+import './header.scss';
+import { Link } from 'react-router-dom';
+import Option from "../option/option";
+import { useLocation } from 'react-router-dom';
+import CustomLink from '../custom-link/custom-link';
 
-const Header = () => {    
 
-  return (
-            
-    <div className="homepage-header">
-      <Link to="/" className="logo-container" style={{'color':'white', 'fontSize':'23px'}}>
-        <img src="/images/logo-white.png" alt="" className="logo" />      
+
+const Header = () => {
+  const location = useLocation();
+
+  return ( 
+    <div className="header">
+
+      <Link to="/" className="logo-container">
+        <img src="/images/logo-black.png" alt="" className="logo" />      
         
       </Link>
-      
-      <div className="sub-header-container">
-            <div className='upper-division'>      
-        
-                <div className="options">
-                    
-                    
-                    {/* <div onClick ={()=>toggleNavigationOpen()}>
-                    <MenuIcon width='20px' height='20px'/>
-                    </div>   */}
-                    
-                    
 
-                    <Link to="/" >
-                    <Option text='Home'/>
-                    </Link>                    
-                    {/* <span>
-                      <Option text='Occasions' icon={<DownArrow fill='gray' height='18px' width='14px'
-                      style={{marginBottom:'-5px'}} 
-                      />}>
-                        <DropDownMenu />
-                      </Option>
-                    </span> */}
+      <div className="right-side-section">
 
-                    <Link to="/contact" >
-                    <Option text='Contact'/>
-                    </Link> 
-                    <Option text='About'/>
-                    
-                    {/* {match.isExact?
-                    (<>
-                    <CustomLink text='about'  >
-                    <Option text='About'/>
-                    </CustomLink>
-                    
-                    
-                    </>
-                    )
-                    :null
-                    } */}
-                    
-                    
-                                           
-                </div>
-            </div>
+        <div className='upper-division'>
 
+          <div className= "options" >
+
+            <Link to="/" >
+            <Option text='Home'/>
+            </Link>   
             
+            <Link to="/contact" >
+              <Option text='Contact'/>
+            </Link> 
+                    
+                    
+            {location.pathname == '/'?
+            (<>
+          
+            <CustomLink text='about'  >
+            <Option text='About'/>
+            </CustomLink>
+          
+            </>
+            )
+            :null
+            } 
             
+          </div>
+          
         </div>
 
-        
+      </div>
       
-    </div> 
-    
-  );
+    </div>
+   );
 };
-export default Header;
 
 // const mapStateToProps = state =>({
 //   cartIsOpen: state.cart.cartIsOpen
@@ -93,3 +83,7 @@ export default Header;
 //   });
   
 // export default connect(mapStateToProps, mapDispatchToProps)(withRouter(Header));
+
+
+ 
+export default Header;

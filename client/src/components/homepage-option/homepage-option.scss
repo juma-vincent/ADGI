@@ -1,9 +1,9 @@
-.option {
+.homepage-option {
     border-bottom: transparent solid 1px ;
     background-color: transparent;
     padding: 0 6px;
-    font-size: 18.3px; 
-    color: rgb(94, 90, 90); 
+    font-size: 18px; 
+    color: white;
     border-radius: 2px;        
     font-weight: 500;
     margin: 0 5px;
@@ -13,17 +13,17 @@
     transition: all 0.5s;
 
         &:hover {
-            color: rgb(94, 90, 90);
+            color: white;
             animation: pulsate 1s;
         
-            border-color: rgb(94, 90, 90);
+            border-color: white;
         }
 
         &:focus {
             outline: none;
             // animation: pulsate 1s;
-            border-color: rgb(69, 18, 209);
-            color: rgb(69, 18, 209);
+            border-color: wheat;
+            color: wheat
             // box-shadow: 0 5px 10px rgba(134, 106, 106, 0.25);
         
         }
@@ -58,7 +58,7 @@
     }
 }
 
-.option-icon-present{
+.homepage-option-icon-present{
     border: none ;
     &:hover{
         color: unset;

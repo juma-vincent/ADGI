@@ -1,18 +1,19 @@
 import React from 'react';
 import {  TextAndButtonContainer, ImageWrapper, HeaderWrapper } from './slide.styled';
 import {Link} from 'react-router-dom';
-import Header from '../header/header';
+import HomepageHeader from '../homepage-header/homepage-header';
+
 
 
 
 
 
 const Slide = ({ imageUrl, title, subtitle, buttonText, link, x }) => {
-  
+   
   return(
     <ImageWrapper imageUrl={imageUrl} className='textcont' style={{transform:`translateX(${x}%)`}}>
         <HeaderWrapper>
-            <Header/>
+            <HomepageHeader />
         </HeaderWrapper>
       <TextAndButtonContainer >
         <h1 >{title}</h1>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.scss";
 
-const Footer = () => {
+const Footer = () => {  
   return (
     <div id='contact' className="footer-container">
       <div className="footer">
@@ -11,7 +11,7 @@ const Footer = () => {
         <small>P.O BOX 7552-40100,</small><br />
         <small>Kisumu, Kenya.</small><br />
 
-        <small>&copy; 2022 GIMORES . All rights reserved.</small>
+        <small>&copy; {new Date().getFullYear().toString()} GIMORES . All rights reserved.</small>
       </div>
     </div>
   );

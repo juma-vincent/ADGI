@@ -1,8 +1,7 @@
-.header {
+.homepage-header {
     width: 100vw;
     display: flex;
-    justify-content: space-between;
-    background-color: whitesmoke;
+    justify-content: space-between;    
     height: 100px;     
     font-weight: bolder; 
     overflow: hidden;     
@@ -10,7 +9,7 @@
     
     
   
-        .logo-container {
+        .homepage-header-logo-container {
           height: 160px;
           width: 60%;
           color: white;
@@ -19,13 +18,12 @@
         //   border: black solid 1px;
           display: flex;
           justify-content: flex-end;
-          
         //   align-items: center;
   
-              .logo {
+              .homepage-header-logo {
                 width: 30%;
                 height: 150px;
-                
+                align-self: flex-end;
                 border-radius: 50%;
                 // border:rgb(83, 1, 1);
                 // font-size: 37px;
@@ -51,7 +49,7 @@
           
         }
         
-        .right-side-section{
+        .homepage-header-right-side-section{
             display: flex;
             flex-direction: column;
             // border: solid springgreen 2px;
@@ -59,14 +57,14 @@
             width: 40%;
             
                 
-                .upper-division{
+                .homepage-header-upper-division{
                     // background-color: violet;                    
                     display: flex;                    
                     justify-content: flex-end;  
                     align-items: center;         
                     color: #af7fdd ;
         
-                        .options {      
+                        .homepage-header-options {      
                             flex-direction: row;
                             display: flex;
                             justify-content: flex-end;
@@ -76,13 +74,7 @@
                             margin-right: 10px;
                             margin-top: 30px; //To be discarded when lower division has an item
 
-                            #cart-icon-small-screen{
-                                opacity: 0;
-                            }
-                            
-                            #cart-icon-large-screen{
-                                opacity: 1;
-                            }               
+                               
                             
                             @media screen and (max-width: 800px) {
                                 margin-right: 7px;

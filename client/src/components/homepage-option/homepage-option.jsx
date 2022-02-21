@@ -1,14 +1,14 @@
 import React, { useState} from 'react';
 // import { toggleOptionDropdownOpen } from '../../redux/modals/modal-actions';
-import './option.scss';
+import './homepage-option.scss';
 // import {connect} from 'react-redux';
 
 
-const Option = (props) => {
+const HomepageOption = (props) => {
     // const [open, setOpen] = useState(false);      
     
     return (         
-             <span className={`${props.icon ? 'option-icon-present': ''} option `} >
+             <span className={`${props.icon ? 'homepage-option-icon-present': ''} homepage-option `} >
 
                 {props.icon? <span 
                 // onClick={ ()=> props.toggleOptionDropdownOpen()}
@@ -16,7 +16,7 @@ const Option = (props) => {
                             :<span>{props.text} </span>
                 }  
                
-                <span className='option-icon' 
+                <span className='homepage-option-icon' 
                     // onClick={ ()=> props.toggleOptionDropdownOpen()}
                     >{props.icon}
                 </span>  
@@ -29,7 +29,7 @@ const Option = (props) => {
      );
 }
 
- export default Option; 
+ export default HomepageOption; 
 
 // const mapDispatchToProps = (dispatch) => ({
 //   toggleOptionDropdownOpen: () => dispatch(toggleOptionDropdownOpen),
