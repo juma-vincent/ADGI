@@ -14,6 +14,8 @@ const Homepage = () => {
             <div>
                 <BannerSlider autoPlay={10} />
             </div>
+            <div className="slogan">Slogan: <i style={{fontWeight:'600'}}>A Haven for the Woman</i> 
+            </div>
 
             <div className='about-section' id='about'>
                 <h1>About Us</h1>
@@ -37,11 +39,6 @@ const Homepage = () => {
             
             </div>
 
-            <div className='features-wrapper'>
-                <div className='features-title'>What We Do</div>
-                <Features/>
-            </div>
-
             <div className='organizational-statements'>
                 <div> 
                     <h3>Vision</h3>
@@ -56,16 +53,15 @@ const Homepage = () => {
 
                 </div>
 
-                <div>
-                    <h3>Slogan</h3>
-                    A Haven for the Woman.
-
-                </div>
+                
             </div>
 
-            {/* <div>
-                <Footer/>
-            </div> */}
+            <div className='features-wrapper'>
+                <div className='features-title'>What We Do</div>
+                <Features/>
+            </div>            
+
+            
         </div>
      );
 }
