@@ -1,19 +1,20 @@
 import React from "react";
 import "./homepage-header.scss";
 import { Link } from "react-router-dom";
-// import { connect } from "react-redux";
+import { connect } from "react-redux";
 
 import HomepageOption from "../homepage-option/homepage-option";
 import CustomLink from "../custom-link/custom-link";
 
-// import MenuIcon from "../menu-icon/menu-icon";
+
 // import { ReactComponent as DownArrow} from '../../assets/icons/down-arrow11.svg';
 
-// import { toggleNavigationOpen } from "../../redux/modals/modal-actions";
 // import DropDownMenu from "../drop-down-menu/drop-down-menu";
 // import CartIcon from "../cart-icon/cart-icon";
 // import CartDropdown from "../cart-dropdown/cart-dropdown";
 import { useLocation } from "react-router-dom";
+
+
 
 
 
@@ -26,6 +27,7 @@ const HomepageHeader = () => {
   return (
             
     <div className="homepage-header">
+
       <Link to="/" className="homepage-header-logo-container">
         <img src="/images/logo-white.png" alt="" className="homepage-header-logo" />      
         
@@ -37,12 +39,6 @@ const HomepageHeader = () => {
                 <div className= "homepage-header-options" >
                     
                     
-                    {/* <div onClick ={()=>toggleNavigationOpen()}>
-                    <MenuIcon width='20px' height='20px'/>
-                    </div>   */}
-                    
-                    
-
                     <Link to="/" >
                     <HomepageOption text='Home'/>
                     </Link>                    
@@ -59,7 +55,7 @@ const HomepageHeader = () => {
                     </Link> 
                     
                     
-                    {location.pathname == '/'?
+                    {location.pathname === '/'?
                     (<>
                     
                     <CustomLink text='about'  >
@@ -87,14 +83,8 @@ const HomepageHeader = () => {
     
   );
 };
-export default HomepageHeader;
 
-// const mapStateToProps = state =>({
-//   cartIsOpen: state.cart.cartIsOpen
-// });
 
-// const mapDispatchToProps = (dispatch) => ({
-//     toggleNavigationOpen: () => dispatch(toggleNavigationOpen),
-//   });
+
   
-// export default connect(mapStateToProps, mapDispatchToProps)(withRouter(Header));
+export default HomepageHeader;

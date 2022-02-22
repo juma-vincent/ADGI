@@ -42,7 +42,7 @@
                 }
               }
            @media screen and (max-width: 800px) {
-            height: 80px;
+            height: 100px;
             width: 60%;
             justify-content: flex-start;
            }  
@@ -83,28 +83,19 @@
                                 padding-left: 15px;                                                   
                                 margin-top: 30px;  //To be changed to 10 when lower division has an item
                                 
-                                #cart-icon-small-screen{
-                                    opacity: 1;
-                                }
-                                #cart-icon-large-screen{
-                                    opacity: 0;
-                                } 
+                                
                             }
                         }
         
                         
         
-                    @media screen and (max-width: 800px) {                    
-                     justify-content: unset; 
-                    
-                    }
                 
                 }
 
             @media screen and (max-width: 800px) {
                 //.right-side-section                   
-                width: 20%;
-                
+                width: 40%;
+                               
             }
 
         }

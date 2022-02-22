@@ -8,9 +8,7 @@ const Homepage = () => {
     
     return ( 
         <div>
-            {/* <div className='header'>
-                 Girls and Mothers Rescue Services 
-            </div> */}
+        
             <div>
                 <BannerSlider autoPlay={10} />
             </div>

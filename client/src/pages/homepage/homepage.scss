@@ -85,6 +85,12 @@
         margin-bottom: -0.5px;
         
     }
+
+    @media screen and (max-width: 500px) {
+        padding-left: 8%;        
+        text-align: start;
+        padding-left: 8%;
+    }
 }
 
 .slogan{
@@ -92,4 +98,10 @@
     font-size: 19px;
     margin-top: 10px;
     margin-bottom: -10px;
+
+    @media screen and (max-width: 500px) {
+        padding-left: 8%;        
+        text-align: start;
+        
+    }
 }

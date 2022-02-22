@@ -9,20 +9,17 @@
 // // import MenuIcon from "../menu-icon/menu-icon";
 // // import { ReactComponent as DownArrow} from '../../assets/icons/down-arrow11.svg';
 
-// // import { toggleNavigationOpen } from "../../redux/modals/modal-actions";
-// // import DropDownMenu from "../drop-down-menu/drop-down-menu";
-// // import CartIcon from "../cart-icon/cart-icon";
-// // import CartDropdown from "../cart-dropdown/cart-dropdown";
-// import { useLocation } from "react-router-dom";
-
-
-
 import React from 'react';
 import './header.scss';
 import { Link } from 'react-router-dom';
 import Option from "../option/option";
 import { useLocation } from 'react-router-dom';
 import CustomLink from '../custom-link/custom-link';
+
+
+import { connect } from 'react-redux';
+
+
 
 
 
@@ -43,6 +40,8 @@ const Header = () => {
 
           <div className= "options" >
 
+            
+
             <Link to="/" >
             <Option text='Home'/>
             </Link>   
@@ -52,7 +51,7 @@ const Header = () => {
             </Link> 
                     
                     
-            {location.pathname == '/'?
+            {location.pathname === '/'?
             (<>
           
             <CustomLink text='about'  >
@@ -74,16 +73,12 @@ const Header = () => {
    );
 };
 
-// const mapStateToProps = state =>({
-//   cartIsOpen: state.cart.cartIsOpen
-// });
 
-// const mapDispatchToProps = (dispatch) => ({
-//     toggleNavigationOpen: () => dispatch(toggleNavigationOpen),
-//   });
+
+
   
-// export default connect(mapStateToProps, mapDispatchToProps)(withRouter(Header));
+export default Header;
 
 
  
-export default Header;
+

@@ -1,37 +1,38 @@
 import React from 'react';
 import { FormContainer } from './contact-page.styles';
-// import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import {connect} from 'react-redux';
-// import { toggleSuccessMessageOn } from '../../redux/modals/modal-actions';
+import { toggleSuccessMessageOn } from  '../../redux/modals/modal-actions';
 import Header from '../../components/header/header';
 import './contact-page.scss';
 
 
 
 
-const ContactPage = () =>{
+
+const ContactPage = ({toggleSuccessMessageOn}) =>{
 
     const [submitBtnText, setSubmitBtnText ] = useState('Send Message');
     const navigate = useNavigate();
 
-    // const sendEmail = (event) => {
-    //   event.preventDefault();
-    //   emailjs.sendForm(
-    //             'service_iqi3ux5', 
-    //             'template_yaoszq9', 
-    //             event.target,
-    //             'user_QmHFtyrlogy5xgJtaCrYY'
-    //             ).then(res=>{                  
-    //                 toggleSuccessMessageOn();                  
-    //                   navigate('/');
+    const sendEmail = (event) => {
+      event.preventDefault();
+      emailjs.sendForm(
+                'service_3n6848a', 
+                'template_zh3ae1t', 
+                event.target,
+                'user_7C4MnP2gylmtbaDmgTiWR'
+                ).then(res=>{                  
+                    toggleSuccessMessageOn();                  
+                      navigate('/');
                     
-    //             }).catch(error=>navigate('/')
+                }).catch(error=>navigate('/')
 
-    //             );
+                );
 
-    // }
+    }
 
     return(
       <div className='contact-page-wrapper'>
@@ -39,8 +40,7 @@ const ContactPage = () =>{
   
           <h2 style={{fontSize: '29px'}}> Contact Us</h2>        
       
-          <form 
-          // onSubmit={this.sendEmail} 
+          <form onSubmit={sendEmail} 
           >        
   
             <div>
@@ -79,7 +79,7 @@ const ContactPage = () =>{
               
               
               
-                  <span style={{marginLeft: '6px'}} >
+                  <span style={{marginLeft: '6px'}}>
                       <input onClick={()=> setSubmitBtnText('Sending')}
                       className= {`${submitBtnText ==='Sending'? 'uploading': null}`}
                       id='btn' type='submit' value={submitBtnText}/>
@@ -132,11 +132,11 @@ const ContactPage = () =>{
       
 
 
-// const mapDispatchToProps = (dispatch) => ({
-//     toggleSuccessMessageOn: () =>
-//       dispatch(toggleSuccessMessageOn),
-//   });
+const mapDispatchToProps = (dispatch) => ({
+    toggleSuccessMessageOn: () =>
+      dispatch(toggleSuccessMessageOn),
+  });
 
   
-export default ContactPage;
-// export default connect(null, mapDispatchToProps)(withRouter(ContactPage));
+
+export default connect(null, mapDispatchToProps)(ContactPage);
