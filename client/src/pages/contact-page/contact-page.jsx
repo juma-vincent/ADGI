@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com';
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import {connect} from 'react-redux';
-import { toggleSuccessMessageOn } from  '../../redux/modals/modal-actions';
+import { toggleContactSuccessOn } from  '../../redux/modals/modal-actions';
 import Header from '../../components/header/header';
 import './contact-page.scss';
 
@@ -12,7 +12,7 @@ import './contact-page.scss';
 
 
 
-const ContactPage = ({toggleSuccessMessageOn}) =>{
+const ContactPage = ({toggleContactSuccessOn}) =>{
 
     const [submitBtnText, setSubmitBtnText ] = useState('Send Message');
     const navigate = useNavigate();
@@ -25,7 +25,7 @@ const ContactPage = ({toggleSuccessMessageOn}) =>{
                 event.target,
                 'user_7C4MnP2gylmtbaDmgTiWR'
                 ).then(res=>{                  
-                    toggleSuccessMessageOn();                  
+                    toggleContactSuccessOn();                  
                       navigate('/');
                     
                 }).catch(error=>navigate('/')
@@ -102,39 +102,12 @@ const ContactPage = ({toggleSuccessMessageOn}) =>{
 
   
 
-
-
-  
     
-      // sendEmail= (event)=>{
-
-      //   const { toggleSuccessMessageOn, history } = this.props; 
-      // const navigate = useNavigate();======USE THIS INSTEAD of history
-         
-      //     event.preventDefault();
-      //     emailjs.sendForm(
-      //         'service_iqi3ux5', 
-      //         'template_yaoszq9', 
-      //         event.target,
-      //         'user_QmHFtyrlogy5xgJtaCrYY'
-      //         ).then(res=>{                  
-      //             toggleSuccessMessageOn();
-      //             history.push('/')
-                    //  navigate('/')=====USE THIS
-                  
-      //         }).catch(error=>history.push('/')
-
-      //         );
-               
-      // }
-     
-  
-      
 
 
 const mapDispatchToProps = (dispatch) => ({
-    toggleSuccessMessageOn: () =>
-      dispatch(toggleSuccessMessageOn),
+    toggleContactSuccessOn: () =>
+      dispatch(toggleContactSuccessOn),
   });
 
   

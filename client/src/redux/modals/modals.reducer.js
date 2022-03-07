@@ -1,15 +1,18 @@
-import { TOGGLE_NAVIGATION_OPEN, TOGGLE_SUCCESS_MESSAGE_ON } from "./modal-actions.types";
+import { TOGGLE_CONTACT_SUCCESS__ON, TOGGLE_DONATION_SUCCESS__ON } from "./modal-actions.types";
 
 const INITIAL_STATE = {    
-    successMessageOn: false
+    contactSuccessOn: false,
+    donationSuccesOn: false,
 };
 
 
 export const SuccessMessageToggleReducer =  (state = INITIAL_STATE, action) =>{
     switch(action.type){
         
-        case TOGGLE_SUCCESS_MESSAGE_ON:
-            return { ...state, successMessageOn: !state.successMessageOn};
+        case TOGGLE_CONTACT_SUCCESS__ON:
+            return { ...state, contactSuccessOn: !state.contactSuccessOn};
+        case TOGGLE_DONATION_SUCCESS__ON:
+            return { ...state, donationSuccesOn: !state.donationSuccesOn};
         
         default:
             return state;

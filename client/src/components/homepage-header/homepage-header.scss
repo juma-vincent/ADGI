@@ -43,7 +43,7 @@
               }
            @media screen and (max-width: 800px) {
             height: 100px;
-            width: 60%;
+            width: 50%;
             justify-content: flex-start;
            }  
           
@@ -94,7 +94,8 @@
 
             @media screen and (max-width: 800px) {
                 //.right-side-section                   
-                width: 40%;
+                width: 50%;
+                margin-right: 0;
                                
             }
 

@@ -1,6 +1,10 @@
-import { TOGGLE_SUCCESS_MESSAGE_ON } from "./modal-actions.types";
+import { TOGGLE_CONTACT_SUCCESS__ON, TOGGLE_DONATION_SUCCESS__ON } from "./modal-actions.types";
 
 
-export const toggleSuccessMessageOn = ({
-    type: TOGGLE_SUCCESS_MESSAGE_ON
+export const toggleContactSuccessOn = ({
+    type: TOGGLE_CONTACT_SUCCESS__ON
+});
+
+export const toggleDonationSuccessOn =({
+    type: TOGGLE_DONATION_SUCCESS__ON
 });

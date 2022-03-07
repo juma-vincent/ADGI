@@ -1,0 +1,78 @@
+.donation-page-wrapper{
+    background: linear-gradient(to right top, #af7fdd, #a493f0 ) ;
+    padding-bottom: 20px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .input-container{
+        font-family: Calibri ;
+        color: rgb(78, 73, 73);
+        max-width: 45%;
+        margin: 2.5rem auto;        
+        padding: 2rem ;    
+        text-align: start;
+        display: flex;
+        background-color: white;
+        border-radius: 5.5px;  
+        background:linear-gradient(to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5));
+        
+        
+        
+        flex-direction: column;        
+        box-shadow: 0px 3px 5px rgba(63, 46, 46, 0.4);
+
+            label{
+                display: block;  
+                display: flex;
+                flex-direction: column;      
+                background-color: white;
+                padding-left: 10px;
+                margin: 5px;
+                border-radius: 3px;
+                background:linear-gradient(to right bottom,
+                    rgba(255, 255, 255, 0.5),
+                    rgba(255, 255, 255, 0.4));
+                    
+                .label-name{
+                    margin-top: 15px;
+                    margin-bottom: 0;
+                    font-weight: 700;
+                    font-size: 19px;
+                }
+                
+                
+            }        
+            
+            input, select {
+                width: 80%;
+                border: none;
+                padding-top: 10px;
+                margin-right: 30px;        
+                color: rgb(78, 73, 73);
+                border-bottom: solid white 1px;
+                font-size: 18px;
+                margin-bottom: 10px;
+                border-radius: 5px;
+                
+
+                &:focus {
+                    outline: none;
+                    border-bottom: solid lightblue 1px;
+                }
+                
+            }
+
+            
+        
+        @media screen and (max-width: 800px) {                            
+            max-width: 90%;
+        
+        }
+       
+
+    }
+
+    
+  
+  }

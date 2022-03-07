@@ -12,4 +12,4 @@ const rootReducer = combineReducers({
     successModal: SuccessMessageToggleReducer,    
 });
 
-export default persistReducer(persistConfig,rootReducer);
+export default rootReducer;

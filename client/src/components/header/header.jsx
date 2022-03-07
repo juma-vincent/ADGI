@@ -62,6 +62,11 @@ const Header = () => {
             )
             :null
             } 
+
+            <Link to="/donation">
+            <Option text='Donate'/>
+            </Link> 
+            
             
           </div>
           

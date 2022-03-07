@@ -13,6 +13,7 @@ import CustomLink from "../custom-link/custom-link";
 // import CartIcon from "../cart-icon/cart-icon";
 // import CartDropdown from "../cart-dropdown/cart-dropdown";
 import { useLocation } from "react-router-dom";
+import Option from "../option/option";
 
 
 
@@ -39,9 +40,9 @@ const HomepageHeader = () => {
                 <div className= "homepage-header-options" >
                     
                     
-                    <Link to="/" >
+                    {/* <Link to="/" >
                     <HomepageOption text='Home'/>
-                    </Link>                    
+                    </Link>                     */}
                     {/* <span>
                       <HomepageOption text='Occasions' icon={<DownArrow fill='gray' height='18px' width='14px'
                       style={{marginBottom:'-5px'}} 
@@ -66,6 +67,10 @@ const HomepageHeader = () => {
                     )
                     :null
                     }
+
+                    <Link to="/donation">
+                    <Option text='Donate'/>
+                    </Link> 
                     
                      
                     

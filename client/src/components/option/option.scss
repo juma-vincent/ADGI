@@ -1,7 +1,7 @@
 .option {
     border-bottom: transparent solid 1px ;
     background-color: transparent;
-    padding: 0 6px;
+    // padding: 0 6px;
     font-size: 18.3px; 
     color: rgb(94, 90, 90); 
     border-radius: 2px;        
@@ -79,5 +79,42 @@
     .option-icon{
         margin-left: 3px;
     }
+}
+
+#donate-button{
+
+    border-bottom: unset ;
+    background-color: rgb(241, 220, 30);
+    padding: 4px 16px;
+    font-size: 18.3px; 
+    color: rgb(94, 90, 90); 
+    border-radius: 20px;        
+    font-weight: 600;
+    font-style: italic ;     
+    box-shadow: inset 0 0 8px rgb(153, 138, 6);
+
+    
+    &:hover {
+        color: unset;
+        animation: unset;
+    
+        border-color: unset;
+    }
+
+    &:focus {
+        outline: none;
+        // animation: pulsate 1s;
+        border-color: unset;
+        color: unset;
+        // box-shadow: 0 5px 10px rgba(134, 106, 106, 0.25);
+    
+    }
+
+    @media screen and (max-width: 600px) {                            
+        
+        padding: 4px 14px;           
+        
+    }
+
 }
 

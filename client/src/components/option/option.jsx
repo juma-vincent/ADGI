@@ -8,7 +8,9 @@ const Option = (props) => {
     // const [open, setOpen] = useState(false);      
     
     return (         
-             <span className={`${props.icon ? 'option-icon-present': ''} option `} >
+             <span className={`${props.icon ? 'option-icon-present': ''} option `} 
+              id={`${props.text === 'Donate'? 'donate-button' : null }`}
+             >
 
                 {props.icon? <span 
                 // onClick={ ()=> props.toggleOptionDropdownOpen()}
@@ -21,7 +23,7 @@ const Option = (props) => {
                     >{props.icon}
                 </span>  
 
-                { props.isOptionOpen && props.children } 
+                {/* { props.isOptionOpen && props.children }  */}
                 {/* The above code means if open is true, render props.children       */}
               
               </span>
