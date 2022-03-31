@@ -6,11 +6,9 @@ import Header from '../../components/header/header';
 
 
 
-
-
 const DonationPage = () => {
 
-    const [state, setState] = useState('');
+const [state, setState] = useState('0.01');
     
 
     return ( 
@@ -25,10 +23,14 @@ const DonationPage = () => {
 
                 <div className="input-container">
                     <label htmlFor=""> <span className='label-name'> Amount in US $: </span>
+                        
+                        
                         <input
                             type="text"
-                            value={state}
-                            onChange={(e) => setState(e.target.value)}
+                            value = {state === '0.01'? '' : state } // if state is 0.01, set input value
+                            // to an empty string                            
+                            onChange={(e) =>  setState( e.target.value)} 
+                            placeholder='$'
                         />
                     </label>
                     < Paypal input_amount ={state} />

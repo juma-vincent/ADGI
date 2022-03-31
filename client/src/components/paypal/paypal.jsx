@@ -9,7 +9,8 @@ import { toggleDonationSuccessOn } from "../../redux/modals/modal-actions";
 const Paypal = ({input_amount, toggleDonationSuccessOn}) => {
 
   const navigate = useNavigate();
-  const paypal = useRef();
+  const paypal = useRef();  
+  
   useEffect(()=>{
     window.paypal.Buttons({
       createOrder: (data, actions, err) => {
@@ -17,7 +18,7 @@ const Paypal = ({input_amount, toggleDonationSuccessOn}) => {
           purchase_units:[
             {
               amount: {
-                value:`${input_amount}`
+                value: input_amount
               }
             }
           ]
