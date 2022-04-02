@@ -1,5 +1,4 @@
-import React, { useEffect, useRef } from "react";
-import ReactDOM from "react-dom";
+import React, { useEffect, useRef} from "react";
 import { useNavigate } from "react-router-dom";
 import { connect } from 'react-redux';
 import { toggleDonationSuccessOn } from "../../redux/modals/modal-actions";
@@ -9,9 +8,10 @@ import { toggleDonationSuccessOn } from "../../redux/modals/modal-actions";
 const Paypal = ({input_amount, toggleDonationSuccessOn}) => {
 
   const navigate = useNavigate();
-  const paypal = useRef();  
+  const paypal = useRef();   
   
   useEffect(()=>{
+    
     window.paypal.Buttons({
       createOrder: (data, actions, err) => {
         return actions.order.create({
@@ -26,8 +26,7 @@ const Paypal = ({input_amount, toggleDonationSuccessOn}) => {
       },
 
       onApprove: async (data, actions) => {
-        const order = await actions.order.capture()
-        console.log(order)
+        const order = await actions.order.capture();        
         toggleDonationSuccessOn();
         navigate('/'); 
       },
@@ -50,5 +49,6 @@ const mapDispatchToProps = (dispatch) => ({
   toggleDonationSuccessOn: () =>
     dispatch(toggleDonationSuccessOn),
 });
+
  
 export default connect(null, mapDispatchToProps)(Paypal);

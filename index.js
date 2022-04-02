@@ -1,5 +1,15 @@
 const express = require('express');
 const app = express();
+const bodyParser = require('body-parser');
+
+app.use(bodyParser.json());
+app.post('/api/update_amount',  (req, res)=>{
+    
+    let input_amount = '' + req.body.amount;
+   
+    res.send(input_amount);
+});
+
 
 
 if(process.env.NODE_ENV === 'production'){
