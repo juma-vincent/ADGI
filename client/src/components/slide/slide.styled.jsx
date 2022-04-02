@@ -52,14 +52,15 @@ export const TextAndButtonContainer = styled.div`
                         
                         
                   }
+
                   p{
                         font-size:20px;
                         color: white;
                         text-align: start;
-                        animation: moveInFromLeftt 10s ease-out infinite;                        
-                        
+                        animation: moveInFromLeftt 10s ease-out infinite; 
                         
                   }
+
                   button{
                   margin: 10px;                 
                   padding: 10px;
@@ -76,6 +77,7 @@ export const TextAndButtonContainer = styled.div`
                   
                   
                   }
+
       @media screen and (max-width: 800px) {   
             top: 20%;
             left: 13%;
@@ -85,6 +87,18 @@ export const TextAndButtonContainer = styled.div`
                   }
             
       }
+
+      @media screen and (max-width: 420px) {   
+            h1{                        
+             font-size: 18px 
+            }
+                  
+            p{
+            font-size: 16px 
+            }
+      
+      }
+
       @keyframes moveInFromRightt {
             20%  {
               opacity: 1;

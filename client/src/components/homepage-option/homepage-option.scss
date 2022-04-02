@@ -40,6 +40,16 @@
         
     }
 
+    @media screen and (max-width: 420px) {
+        font-size: 15px;    
+        padding: 4px;  
+    }
+
+    @media screen and (max-width: 350px) {
+        font-size: 13px;  
+        padding: 3px;    
+    }
+
     @keyframes pulsate {
         0% {
         transform: scale(1);

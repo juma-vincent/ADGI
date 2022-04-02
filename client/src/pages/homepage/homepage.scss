@@ -52,8 +52,23 @@
         }
     }
 
+    @media screen and (max-width: 420px) {
+        margin-bottom: 70px;   
+        
+        .about-text {
+            width: 95%;
+            font-size: 13px;
+            
+        }
+
+        h1{
+            padding-top: 3%;
+            margin-top: 3%;
+        }      
+    }
+
     @media screen and (max-width: 350px) {
-        margin-bottom: 190px;
+        margin-bottom: 120px;
     }
 }
 
@@ -91,6 +106,10 @@
         text-align: start;
         padding-left: 8%;
     }
+
+    @media screen and (max-width: 420px) {
+        font-size: 15px;
+    }
 }
 
 .slogan{
@@ -102,6 +121,11 @@
     @media screen and (max-width: 500px) {
         padding-left: 8%;        
         text-align: start;
+        
+    }
+
+    @media screen and (max-width: 420px) {
+        font-size: 17;
         
     }
 }
