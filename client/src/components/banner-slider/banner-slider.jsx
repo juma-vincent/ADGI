@@ -6,8 +6,8 @@ import './banner-slider.scss';
 import { ImageSliderContainer} from './banner-slider.styles';
 
 const bannerData=[
-{title:'AFRIKAN DEVELOPMENT GOALS INITIATIVE', 
-subtitle:'ADGI', 
+{title:'AFRIKAN DEVELOPMENT GOALS INITIATIVE(ADGI)', 
+subtitle:'', 
 buttonText:'',
 link:'/contact',
 imageUrl:'/images/ADGI.jpg'},
