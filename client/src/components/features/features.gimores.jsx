@@ -4,9 +4,9 @@ import { ReactComponent as EducationIcon } from "../../assets/icons/education.sv
 import { ReactComponent as HouseIcon } from "../../assets/icons/house.svg";
 import { ReactComponent as HumanRightsIcon } from "../../assets/icons/human-rights.svg";
 
-import "./features.scss";
+import "./features.gimores.scss";
 
-const Features = () => {
+const FeaturesGimores = () => {
   return (
     <div className="features-container">
       <div className="feature">
@@ -15,16 +15,16 @@ const Features = () => {
         <div className="content">
           <h3>Promoting Human Rights</h3>
           <p>
-          We seek to promote human rights in Afrika.
+          We work with authorities to ensure justice is served to survivors.
           </p>
         </div>
       </div>
       <div className="feature">
         <HouseIcon className="icon" />
         <div className="content">
-          <h3>Housing</h3>
+          <h3>Housing and Settlement</h3>
           <p>
-          We seek to reach a solution to housing problems faced in Afrika.
+          We provide safety by giving survivors temporary shelter as we help them find refuge.
           </p>
         </div>
       </div>
@@ -35,7 +35,7 @@ const Features = () => {
         <div className="content">
           <h3>Education</h3>
           <p>
-          We seek to promote education in Afrika.
+          We provide counselling and capacity building to survivors towards wholesomeness.
 
           </p>
         </div>
@@ -47,7 +47,8 @@ const Features = () => {
         <div className="content">
           <h3>Health and Welfare</h3>
           <p>
-          We seek to facilitate good health and welfare for Afrikans.
+          We work closely with health facilities in ensuring survivors are checked
+          and treated by doctors.
           </p>
         </div>
       </div>
@@ -56,4 +57,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default FeaturesGimores;

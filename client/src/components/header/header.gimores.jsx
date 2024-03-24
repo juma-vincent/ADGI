@@ -29,10 +29,10 @@ const Header = () => {
   return ( 
     <div className="header">
 
-      {/* <Link to="/" className="logo-container">
+      <Link to="/" className="logo-container">
         <img src="/images/logo-black.png" alt="" className="logo" />      
         
-      </Link> */}
+      </Link>
 
       <div className="right-side-section">
 
@@ -46,7 +46,10 @@ const Header = () => {
             <Option text='Home'/>
             </Link>   
             
-                
+            <Link to="/contact" >
+              <Option text='Contact'/>
+            </Link> 
+                    
                     
             {location.pathname === '/'?
             (<>
@@ -60,9 +63,9 @@ const Header = () => {
             :null
             } 
 
-            {/* <Link to="/donation">
+            <Link to="/donation">
             <Option text='Donate'/>
-            </Link>  */}
+            </Link> 
             
             
           </div>

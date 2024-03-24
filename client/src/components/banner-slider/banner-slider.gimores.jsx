@@ -6,41 +6,37 @@ import './banner-slider.scss';
 import { ImageSliderContainer} from './banner-slider.styles';
 
 const bannerData=[
-{title:'AFRIKAN DEVELOPMENT GOALS INITIATIVE', 
-subtitle:'ADGI', 
+{title:'Girls and Mothers Rescue Services', 
+subtitle:'A safe haven for girls and mothers', 
 buttonText:'',
 link:'/contact',
-imageUrl:'/images/ADGI.jpg'},
+imageUrl:'/images/img1.jpg'},
 
-{title:"2025 Goal No. 1: FOOD SECURITY FOR ALL", 
+{title:"We seek solutions to women’s rights violation", 
 
 subtitle:'', 
 buttonText:'',
-imageUrl:'/images/food-security.jpg'},
+// link:'https://api.whatsapp.com/send?phone=254701032469',
+link:'/event-booking',
+imageUrl:'/images/img2.jpg'},
 
-{title:'2026 Goal No. 2: HEALTH', 
-subtitle:'', 
-buttonText:'',
-imageUrl:'/images/health.jpg'},
-
-{title:"2027 Goal No. 3: INFRASTRUCTURE", 
+{title:'We care about your mental health', 
 subtitle:'', 
 buttonText:'',
 link:'/contact',
-imageUrl:'/images/infrastructure.jpg'},
+imageUrl:'/images/img4.jpg'},
 
-{title:"2028 Goal No. 4: CENTRAL CURRENCY", 
+{title:"Let's break the cycle of violence", 
 subtitle:'', 
 buttonText:'',
 link:'/contact',
-imageUrl:'/images/central-currency.jpg'},
-
+imageUrl:'/images/img5.jpg'},
 
 ]
 
 
 
-const BannerSlider = ({autoPlay}) => {
+const BannerSliderGimores = ({autoPlay}) => {
     const [x, setX] = useState(0);
 
     const autoPlayRef = useRef();
@@ -93,4 +89,4 @@ const BannerSlider = ({autoPlay}) => {
       );
 }
  
-export default BannerSlider;
+export default BannerSliderGimores;

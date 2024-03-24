@@ -18,8 +18,8 @@ function App() {
       <div className="App">
         <Routes>
           <Route path='/' element={ <Homepage/>} />
-          <Route path='/contact' element={<ContactPage />}/>
-          <Route path='/donation' element={<DonationPage />}/>
+          {/* <Route path='/contact' element={<ContactPage />}/> */}
+          {/* <Route path='/donation' element={<DonationPage />}/> */}
         </Routes>
         <Footer/>
         <ContactSuccessModal />
