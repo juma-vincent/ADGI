@@ -59,10 +59,10 @@ const HomepageHeader = () => {
                     {location.pathname === '/'?
                     (<>
                     
-                    <CustomLink text='about'  >
+                    {/* <CustomLink text='about'  >
                     <HomepageOption text='About'/>
                     </CustomLink>
-                    
+                     */}
                     </>
                     )
                     :null
