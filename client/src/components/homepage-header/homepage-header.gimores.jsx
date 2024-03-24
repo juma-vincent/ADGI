@@ -29,10 +29,10 @@ const HomepageHeader = () => {
             
     <div className="homepage-header">
 
-      {/* <Link to="/" className="homepage-header-logo-container">
+      <Link to="/" className="homepage-header-logo-container">
         <img src="/images/logo-white.png" alt="" className="homepage-header-logo" />      
         
-      </Link> */}
+      </Link>
       
       <div className="homepage-header-right-side-section">
             <div className='homepage-header-upper-division'>      
@@ -51,10 +51,10 @@ const HomepageHeader = () => {
                       </Option>
                     </span> */}
 
-                    {/* <Link to="/contact" >
+                    <Link to="/contact" >
                     <HomepageOption text='Contact'/>
                     </Link> 
-                     */}
+                    
                     
                     {location.pathname === '/'?
                     (<>
@@ -68,9 +68,9 @@ const HomepageHeader = () => {
                     :null
                     }
 
-                    {/* <Link to="/donation">
+                    <Link to="/donation">
                     <Option text='Donate'/>
-                    </Link>  */}
+                    </Link> 
                     
                      
                     
