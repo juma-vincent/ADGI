@@ -12,23 +12,23 @@ const GoalOne = () =>{
         
 
     return(
-      <div className='contact-page-wrapper'>
+      <div className='goal-one-page-wrapper'>
           <Header/>          
-  
-          <h2 style={{fontSize: '29px'}}>2025 Goal No. 1: Food Security For All</h2>        
-      
-         <div>The prevalence of food insecurity in Africa varies across regions and countries.
-             It's a complex issue influenced by factors like climate, economic conditions, conflict, 
-             and governance. According to data from the Food and Agriculture Organization (FAO), as of 
-             recent years, around 20% of the population in sub-Saharan Africa is estimated to be 
-             undernourished, indicating a significant level of food insecurity. However, the prevalence 
-             can be higher in certain areas or during periods of drought, conflict, or economic instability.
-             <br />
-             Let's compare Nigeria and Ethiopia, two populous countries in Africa, in terms of the percentages
-             of their populations vulnerable to food insecurity.
-        </div>
+            <div className='goal-one-page-content'>
+                <h2 style={{fontSize: '29px'}}>2025 Goal No. 1: Food Security For All</h2>        
+            
+                <div>The prevalence of food insecurity in Africa varies across regions and countries.
+                It's a complex issue influenced by factors like climate, economic conditions, conflict, 
+                and governance. According to data from the Food and Agriculture Organization (FAO), as of 
+                recent years, around 20% of the population in sub-Saharan Africa is estimated to be 
+                undernourished, indicating a significant level of food insecurity. However, the prevalence 
+                can be higher in certain areas or during periods of drought, conflict, or economic instability.
+                <br />
+                Let's compare Nigeria and Ethiopia, two populous countries in Africa, in terms of the percentages
+                of their populations vulnerable to food insecurity.
+                </div>
 
-         <div>
+        <div>
             <h2>Nigeria</h2>
             Nigeria has a population of over 223 million people, making it the most populous country 
             in Africa. According to recent data, around 26.9% of the population in Nigeria is estimated to be 
@@ -36,18 +36,18 @@ const GoalOne = () =>{
             include rapid population growth, inadequate infrastructure, climate variability, and conflicts in 
             certain regions like the Northeast.
             
-         </div>
+        </div>
 
-         <div>
+        <div>
             <h2>Ethiopia</h2>
             Ethiopia is the second-most populous country in Africa, with a population of over 126 million 
             people. Approximately 21.8% of the population in Ethiopia is considered undernourished or 
             vulnerable to food insecurity. Food insecurity in Ethiopia is influenced by factors such as 
             recurrent droughts, limited access to markets in rural areas, land degradation, and periodic 
             conflicts.
-         </div>
+        </div>
 
-         <div>
+        <div>
             Both Nigeria and Ethiopia face significant challenges in ensuring food security for their 
             populations. While Nigeria has a higher percentage of its population vulnerable to food insecurity,
             Ethiopia also grapples with substantial issues in this regard.
@@ -135,8 +135,10 @@ const GoalOne = () =>{
         infrastructure, implementing social safety nets, diversifying food systems, resolving conflicts, 
         empowering communities through education, and fostering partnerships for effective governance.
         </div>
+        
+    
+        </div>
           
-      
       </div>
     
   
