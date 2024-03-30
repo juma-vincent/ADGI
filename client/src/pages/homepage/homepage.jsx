@@ -17,8 +17,8 @@ const Homepage = () => {
             <div className='about-section' id='about'>
                 <h1>About Us</h1>
                 <div className='about-text'>
-                    The about content for the Afrikan Development Goals Initiative (ADGI) will be  
-                    added soon.
+                African Development Goals initiative is an afro-centric alternative to the 
+                Eurocentric UN sustainable development goals.
 
                 </div>
             
