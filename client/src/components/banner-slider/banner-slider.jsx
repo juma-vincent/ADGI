@@ -15,7 +15,7 @@ imageUrl:'/images/ADGI.jpg'},
 {title:"2025 Goal No. 1: FOOD SECURITY FOR ALL", 
 
 subtitle:'', 
-buttonText:'Read more',
+buttonText:'',
 link:'/goal-one',
 imageUrl:'/images/food-security.jpg'},
 
