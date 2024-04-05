@@ -9,7 +9,7 @@ import ContactPage from './pages/contact-page/contact-page';
 import DonationPage from './pages/donation-page/donation-page';
 import ContactSuccessModal from './components/modals/contact-success-modal/contact-success-modal';
 import DonationSuccessModal from './components/modals/donation-success-modal/donation-success-modal';
-import GoalOne from './pages/goalOne/goalOne';
+import GoalOne from './pages/goal-one/goal-one';
 
 
 

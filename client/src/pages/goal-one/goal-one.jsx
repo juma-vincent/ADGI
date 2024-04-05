@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from '../../components/header/header';
-import './goalOne.scss';
+import './goal-one.scss';
 
 
 
@@ -28,23 +28,25 @@ const GoalOne = () =>{
                 of their populations vulnerable to food insecurity.
                 </div>
 
-        <div>
-            <h2>Nigeria</h2>
-            Nigeria has a population of over 223 million people, making it the most populous country 
-            in Africa. According to recent data, around 26.9% of the population in Nigeria is estimated to be 
-            undernourished or vulnerable to food insecurity. Factors contributing to food insecurity in Nigeria 
-            include rapid population growth, inadequate infrastructure, climate variability, and conflicts in 
-            certain regions like the Northeast.
+        <div className='nigeria-ethiopia-wrapper'>
+            <span className='nigeria-wrapper'>
+                <h2>Nigeria</h2>
+                Nigeria has a population of over 223 million people, making it the most populous country 
+                in Africa. According to recent data, around 26.9% of the population in Nigeria is estimated to be 
+                undernourished or vulnerable to food insecurity. Factors contributing to food insecurity in Nigeria 
+                include rapid population growth, inadequate infrastructure, climate variability, and conflicts in 
+                certain regions like the Northeast.
             
-        </div>
+            </span>
 
-        <div>
-            <h2>Ethiopia</h2>
-            Ethiopia is the second-most populous country in Africa, with a population of over 126 million 
-            people. Approximately 21.8% of the population in Ethiopia is considered undernourished or 
-            vulnerable to food insecurity. Food insecurity in Ethiopia is influenced by factors such as 
-            recurrent droughts, limited access to markets in rural areas, land degradation, and periodic 
-            conflicts.
+            <span className='ethiopia-wrapper'>
+                <h2>Ethiopia</h2>
+                Ethiopia is the second-most populous country in Africa, with a population of over 126 million 
+                people. Approximately 21.8% of the population in Ethiopia is considered undernourished or 
+                vulnerable to food insecurity. Food insecurity in Ethiopia is influenced by factors such as 
+                recurrent droughts, limited access to markets in rural areas, land degradation, and periodic 
+                conflicts.
+            </span>
         </div>
 
         <div>

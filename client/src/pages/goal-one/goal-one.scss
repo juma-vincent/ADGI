@@ -1,0 +1,31 @@
+.goal-one-page-wrapper{
+    // background: linear-gradient(to right top, #af7fdd, #a493f0 ) ;
+    background: linear-gradient(to right top, #eae2f1, #ffffff ) ;       
+    font-family: 'Cambria';
+  
+}
+
+.goal-one-page-content{
+    padding: 5%; 
+    font-size: 16px;
+}
+
+.nigeria-ethiopia-wrapper{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    padding: 100px;
+    width: 100%;
+}
+
+.nigeria-wrapper {
+width: 50%;
+box-shadow: 0px 3px 5px rgba(63, 46, 46, 0.4);
+padding:20px;
+}
+
+.ethiopia-wrapper{
+width: 50%;
+box-shadow: 0px 3px 5px rgba(63, 46, 46, 0.4);
+padding:20px;
+}
