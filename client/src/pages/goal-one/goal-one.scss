@@ -2,20 +2,23 @@
     // background: linear-gradient(to right top, #af7fdd, #a493f0 ) ;
     background: linear-gradient(to right top, #eae2f1, #ffffff ) ;       
     font-family: 'Cambria';
+    width: 100%;
   
 }
 
 .goal-one-page-content{
-    padding: 5%; 
+    padding: 2%; 
     font-size: 16px;
 }
 
 .nigeria-ethiopia-wrapper{
     display: flex;
     flex-direction: row;
-    background-color: grey;
+    justify-content: space-between;
+    background-color: rgb(241, 238, 238);
     padding: 100px;
     width: 100%;
+
 }
 
 .nigeria-wrapper {
