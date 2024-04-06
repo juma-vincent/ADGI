@@ -63,7 +63,7 @@ const GoalOne = () =>{
 
                 
 
-                <div>        
+                <div className='goal-one-impact'>        
                 
                     <h2>Impact on Individuals:</h2>
 
