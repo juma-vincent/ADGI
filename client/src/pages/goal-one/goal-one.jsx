@@ -2,7 +2,7 @@ import React from 'react';
 
 import Header from '../../components/header/header';
 import './goal-one.scss';
-
+import Image from '/../../../';
 
 
 
@@ -15,9 +15,11 @@ const GoalOne = () =>{
       <div className='goal-one-page-wrapper'>
           <Header/>          
             <div className='goal-one-page-content'>
-                <h2 style={{fontSize: '29px'}}>2025 Goal No. 1: Food Security For All</h2>        
+                        
             
-                <div>
+                <div className='goal-one-banner-section'>
+                        <h2 style={{fontSize: '29px'}}>2025 Goal No. 1: Food Security For All</h2>
+
                         The prevalence of food insecurity in Africa varies across regions and countries.
                         It's a complex issue influenced by factors like climate, economic conditions, conflict, 
                         and governance. According to data from the Food and Agriculture Organization (FAO), as of 
@@ -50,15 +52,18 @@ const GoalOne = () =>{
                     </span>
                 </div>
 
-        <div>
-            Both Nigeria and Ethiopia face significant challenges in ensuring food security for their 
-            populations. While Nigeria has a higher percentage of its population vulnerable to food insecurity,
-            Ethiopia also grapples with substantial issues in this regard.
-        </div>
+                <div>
+                    Both Nigeria and Ethiopia face significant challenges in ensuring food security for their 
+                    populations. While Nigeria has a higher percentage of its population vulnerable to food insecurity,
+                    Ethiopia also grapples with substantial issues in this regard.
 
-        <div>
-        Vulnerability to food insecurity in Africa adversely affects both individuals and economic growth:
-        <br />
+                    <br />
+                    Vulnerability to food insecurity in Africa adversely affects both individuals and economic growth:
+
+                </div>
+
+        <div>        
+        
         <h2>Impact on Individuals:</h2>
 
         <b>Malnutrition:</b>Lack of access to nutritious food leads to malnutrition, stunting physical and 
