@@ -19,15 +19,18 @@ const GoalOne = () =>{
                 <div className='goal-one-banner-section'>
                         <h2 style={{fontSize: '29px'}}>2025 Goal No. 1: Food Security For All</h2>
 
-                        The prevalence of food insecurity in Africa varies across regions and countries.
-                        It's a complex issue influenced by factors like climate, economic conditions, conflict, 
-                        and governance. According to data from the Food and Agriculture Organization (FAO), as of 
-                        recent years, around 20% of the population in sub-Saharan Africa is estimated to be 
-                        undernourished, indicating a significant level of food insecurity. However, the prevalence 
-                        can be higher in certain areas or during periods of drought, conflict, or economic instability.
-                        <br />
-                        Let's compare Nigeria and Ethiopia, two populous countries in Africa, in terms of the percentages
-                        of their populations vulnerable to food insecurity.
+                        <span style={{width:'50%'}}>
+                            he prevalence of food insecurity in Africa varies across regions and countries.
+                            It's a complex issue influenced by factors like climate, economic conditions, conflict, 
+                            and governance. According to data from the Food and Agriculture Organization (FAO), as of 
+                            recent years, around 20% of the population in sub-Saharan Africa is estimated to be 
+                            undernourished, indicating a significant level of food insecurity. However, the prevalence 
+                            can be higher in certain areas or during periods of drought, conflict, or economic instability.
+                            <br />
+                            Let's compare Nigeria and Ethiopia, two populous countries in Africa, in terms of the percentages
+                            of their populations vulnerable to food insecurity.
+                            
+                        </span>T
                 </div>
 
                 <div className='nigeria-ethiopia-wrapper'>
