@@ -1,13 +1,13 @@
 .goal-one-page-wrapper{
     // background: linear-gradient(to right top, #af7fdd, #a493f0 ) ;
-    background: linear-gradient(45deg, #d9b7f7 20%, #ffffff 90%) ;       
+    background: linear-gradient(45deg, #ebd3ff 40%, #ffffff 70%) ;       
     font-family: "Calibri," "";
     width: 100vw;
   
 }
 
 .goal-one-page-content{
-    padding: 0; 
+    padding: 2%; 
     font-size: 17px;
 }
 
@@ -49,5 +49,6 @@ background-color: #e6e6e6;
 }
 
 .nigeria-ethiopia-conclusion{
-    
+    display: flex;
+    justify-self: center;
 }
