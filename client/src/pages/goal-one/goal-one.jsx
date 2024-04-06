@@ -16,7 +16,7 @@ const GoalOne = () =>{
             <div className='goal-one-page-content'>
                         
             
-                <div className='goal-one-banner-section' stye={{fontFamily: 'Poppins'}}>
+                <div className='goal-one-banner-section'>
                         <h2 style={{fontSize: '29px'}}>2025 Goal No. 1: Food Security For All</h2>
 
                         The prevalence of food insecurity in Africa varies across regions and countries.
