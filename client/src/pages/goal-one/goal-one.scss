@@ -38,14 +38,10 @@ border-radius: 10px;
 .goal-one-banner-section{
     height: 385px;
     // background-image: linear-gradient(direction, white, blue) url("../../assets/img3.jpg");
-    background-image: linear-gradient(
-      rgba(63, 19, 13, 0.908) ,
-      rgba(63, 19, 13, 0.518) 
-            ),
-            url("../../assets/img3.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.925) ,rgba(255, 255, 255, 0.116) ), url("../../assets/img3.jpg");
     background-size: cover;
     background-position: center;
-    border: solid blue 3 px;
+    
     text-align: start;  
     
 }
