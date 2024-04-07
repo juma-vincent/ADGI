@@ -157,7 +157,7 @@ const GoalOne = () =>{
 
                 </div>
 
-                <div>
+                <div className='goal-one-conclusion'>
                     <br />
                     <br />
                     By the year 2025, ADGI aims to reduce by half the estimated 20% of the sub-Saharan population currently 
