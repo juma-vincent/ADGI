@@ -165,6 +165,7 @@ const GoalOne = () =>{
                     considered undernourished.
 
                     <br />
+                    <br />
                     ADGI also plans to address food insecurity in Africa by investing in agriculture, developing 
                     infrastructure, implementing social safety nets, diversifying food systems, resolving conflicts, 
                     empowering communities through education, and fostering partnerships for effective governance.
