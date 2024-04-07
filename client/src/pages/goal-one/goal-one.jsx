@@ -58,7 +58,7 @@ const GoalOne = () =>{
                     
                 </div>
 
-                <div className='nigeria-ethiopia-conclusion' style={{fontSize:'18px'}}>
+                <div className='nigeria-ethiopia-conclusion' style={{fontSize:'19px'}}>
                         Both Nigeria and Ethiopia face significant challenges in ensuring food security for their 
                         populations. While Nigeria has a higher percentage of its population vulnerable to food insecurity,
                         Ethiopia also grapples with substantial issues in this regard.
