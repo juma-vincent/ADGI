@@ -72,73 +72,74 @@ const GoalOne = () =>{
                 
                     <h2>Impact on Individuals:</h2>
 
-                    <b>Malnutrition:</b>Lack of access to nutritious food leads to malnutrition, stunting physical and 
+                    <b>Malnutrition: </b>Lack of access to nutritious food leads to malnutrition, stunting physical and 
                     cognitive development,  particularly in children.
                     <br />
 
-                    <b>Health Issues:</b> 
+                    <b>Health Issues: </b> 
                     Food insecurity contributes to a higher prevalence of diseases and health complications, weakening 
                     immune systems and increasing susceptibility to illnesses.
                     <br />
 
-                    <b>Poverty Traps:</b>
+                    <b>Poverty Traps: </b>
                     Food insecurity perpetuates cycles of poverty as families struggle to meet basic 
                     nutritional needs, hindering opportunities for education and employment.
                 </div>
 
                 <div>                       
 
-                    <h2>Impact on Economic Growth:</h2>
+                    <h2>Impact on Economic Growth: </h2>
 
-                    <b>Productivity Loss:</b>
+                    <b>Productivity Loss: </b>
                     Malnutrition and poor health resulting from food insecurity 
                     reduce productivity in the workforce, lowering overall economic output.
                     <br />
 
-                    <b>Increased Healthcare Costs:</b>
+                    <b>Increased Healthcare Costs: </b>
                     Higher prevalence of diseases due to food insecurity leads to increased 
                     healthcare spending, diverting resources from productive investments.
                     <br />  
 
-                    <b>Social Instability:</b>
+                    <b>Social Instability: </b>
                     Food insecurity can exacerbate social tensions and conflicts, 
                     disrupting economic activities and deterring investment.
+
                     <br />  
-                    
+                    <br />
                     To address food insecurity in Africa, ADGI intends to undertake the following actions:
 
                     <br />  
-                    <b>Invest in Agriculture:</b>
+                    <b>Invest in Agriculture: </b>
                     Support smallholder farmers with access to inputs, technology, and 
                     training to improve productivity and resilience to climate shocks.
 
                     <br />  
-                    <b>Infrastructure Development:</b>
+                    <b>Infrastructure Development: </b>
                     Build roads, storage facilities, and market networks to 
                     enhance access to markets, reduce food waste, and stabilize prices.
 
                     <br />  
-                    <b> Social Safety Nets:</b>
+                    <b> Social Safety Nets: </b>
                     Implement targeted food assistance programs, cash transfers, and 
                     nutrition interventions to support vulnerable populations during crises.
 
                     <br />  
-                    <b> Diversify Food Systems:</b>
+                    <b> Diversify Food Systems: </b>
                     Promote crop diversification, sustainable farming practices, 
                     and agroecology to enhance dietary diversity and resilience to climate change.
 
                     <br />  
-                    <b> Conflict Resolution:</b>
+                    <b> Conflict Resolution: </b>
                     Address conflicts and promote peace-building efforts to 
                     stabilize regions affected by violence, which disrupt food production and distribution.
 
                     <br />  
-                    <b> Education and Empowerment:</b>
+                    <b> Education and Empowerment: </b>
                     Improve education and women's empowerment to enhance food security 
                     through better nutrition, family planning, and income generation opportunities.
 
                     <br />  
-                    <b> Partnerships and Governance:</b>
+                    <b> Partnerships and Governance: </b>
                     Foster collaboration among governments, NGOs, private sector, and international organizations to 
                     coordinate efforts, strengthen institutions, and ensure accountable governance.
 
