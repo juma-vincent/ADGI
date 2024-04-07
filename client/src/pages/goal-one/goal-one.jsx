@@ -71,7 +71,7 @@ const GoalOne = () =>{
                 
 
                 <div className='goal-one-individual-impact'>        
-                    <div style={{width:'60%'}}>
+                    <div style={{width:'60%', margin:'0 auto'}}>
                         <h2 style={{textAlign: 'center'}}>Impact on Individuals:</h2>
 
                         <b>Malnutrition: </b>Lack of access to nutritious food leads to malnutrition, stunting physical and 
@@ -90,7 +90,7 @@ const GoalOne = () =>{
                 </div>
 
                 <div className='goal-one-economic-impact'>   
-                    <div style={{width: '90%'}}>                  
+                    <div style={{width: '90%', margin:'0 auto'}}>                  
 
                         <h2 style={{textAlign: 'center'}}>Impact on Economic Growth: </h2>
 
