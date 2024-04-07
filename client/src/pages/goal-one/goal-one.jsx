@@ -113,6 +113,7 @@ const GoalOne = () =>{
                         To address food insecurity in Africa, ADGI intends to undertake the following actions:
 
                         <br />  
+                        <br />
                         <b>Invest in Agriculture: </b>
                         Support smallholder farmers with access to inputs, technology, and 
                         training to improve productivity and resilience to climate shocks.
@@ -147,6 +148,7 @@ const GoalOne = () =>{
                         Foster collaboration among governments, NGOs, private sector, and international organizations to 
                         coordinate efforts, strengthen institutions, and ensure accountable governance.
 
+                        <br />
                         <br />
                         By implementing these strategies, ADGI can help Africa make significant strides towards achieving food 
                         security and promoting sustainable development.
