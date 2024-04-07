@@ -90,7 +90,7 @@ const GoalOne = () =>{
                 </div>
 
                 <div className='goal-one-economic-impact'>   
-                    <div style={{width: '90%', margin:'0 auto'}}>                  
+                    <div style={{width: '90%', margin:'0 auto', padding:'1%', backgroundColor:'rgb(186, 238, 255)'}}>                  
 
                         <h2 style={{textAlign: 'center'}}>Impact on Economic Growth: </h2>
 
