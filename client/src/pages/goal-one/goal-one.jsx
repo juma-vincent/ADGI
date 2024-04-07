@@ -19,7 +19,7 @@ const GoalOne = () =>{
                 <div className='goal-one-banner-section'>
                         <h2 style={{fontSize: '29px'}}>2025 Goal No. 1: Food Security For All</h2>
 
-                        <span style={{width:'50%'}}>
+                        <span style={{width:'50%', border: 'solid 2px blue'}}>
                             he prevalence of food insecurity in Africa varies across regions and countries.
                             It's a complex issue influenced by factors like climate, economic conditions, conflict, 
                             and governance. According to data from the Food and Agriculture Organization (FAO), as of 
