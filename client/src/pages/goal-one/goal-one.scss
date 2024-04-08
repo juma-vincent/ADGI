@@ -47,22 +47,30 @@ text-align: start;
     border: solid rgba(255, 0, 0, 0) 1px;
     text-align: start;  
 
-    // @media screen and (max-width: 500px) {
-    //     background-image: linear-gradient(90deg, rgb(240, 240, 240) 61%, rgba(248, 248, 248, 0) 80%), url("../../assets/vector");
-    //     font-size: 9px;
-    // }
+    @media screen and (max-width: 500px) {
+        background-image: linear-gradient(90deg, rgb(240, 240, 240) 61%, rgba(248, 248, 248, 0) 80%), url("../../assets/food-security2.jpg");
+        font-size: 9px;
+    }
 
-    // @media screen and (max-width: 420px) {
+    @media screen and (max-width: 420px) {
        
         
-    // }
+    }
 
     
     
 }
 
 .goal-one-banner-section >div{
-    width: 60%;    
+    width: 60%;  
+    
+    @media screen and (max-width: 500px) {
+        width: 70%;
+    }
+}
+
+.goal-one-banner-section >h2{
+    font-size:29px ;
 }
 
 .nigeria-ethiopia-conclusion{
@@ -73,6 +81,7 @@ text-align: start;
     text-align: start;
     margin-top: 4%;
     margin-bottom: 7%;
+    font-size: 19px;
 }
 
 .goal-one-individual-impact{

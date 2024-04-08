@@ -17,7 +17,7 @@ const GoalOne = () =>{
                         
             
                 <div className='goal-one-banner-section'>
-                        <h2 style={{fontSize: '29px'}}>2025 Goal No. 1: Food Security For All</h2>
+                        <h2>2025 Goal No. 1: Food Security For All</h2>
 
                         <div>
                             The prevalence of food insecurity in Africa varies across regions and countries.
@@ -58,7 +58,7 @@ const GoalOne = () =>{
                     
                 </div>
 
-                <div className='nigeria-ethiopia-conclusion' style={{fontSize:'19px'}}>
+                <div className='nigeria-ethiopia-conclusion'>
                         Both Nigeria and Ethiopia face significant challenges in ensuring food security for their 
                         populations. While Nigeria has a higher percentage of its population vulnerable to food insecurity,
                         Ethiopia also grapples with substantial issues in this regard.
