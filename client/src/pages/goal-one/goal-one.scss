@@ -36,7 +36,7 @@ text-align: start;
 @media screen and (max-width: 500px) {
     width: 90%;
     margin: 0 auto;
-    margin-top: 3%;
+    margin-top: 5%;
  }
 }
 
@@ -51,7 +51,7 @@ text-align: start;
 @media screen and (max-width: 500px) {
     width: 90%;
     margin: 0 auto;
-    margin-top: 3%;
+    margin-top: 5%;
  }
 }
 
@@ -111,11 +111,17 @@ text-align: start;
     text-align: start;
     padding-bottom: 10%;
     background: linear-gradient(270deg, #f3e9ff 50%, #fafafa 80%) ;
+
 }
 
 .goal-one-individual-impact >div{
     width: 60%;
     margin: 0 auto;
+
+    @media screen and (max-width: 500px) {
+        width: 90%;
+     }
+    
 }
 
 .goal-one-individual-impact >h2{
@@ -147,16 +153,15 @@ text-align: start;
    text-align: start;
     width: 60%;
     margin: 0 auto;    
-    padding-bottom: 4%;
+    padding-bottom: 6%;
     padding-top: 2%;
     font-size: 18px;
    
 
-    // @media screen and (max-width: 500px) {
-    //     padding-left: 8%;        
-    //     text-align: start;
+    @media screen and (max-width: 500px) {
+       width: 90%;
         
-    // }
+    }
 
     // @media screen and (max-width: 420px) {
         
