@@ -72,11 +72,11 @@ text-align: start;
 
     @media screen and (max-width: 420px) {
        font-size: 11px;
-        height: 85vh;
+        // height: 70vh;
     }
 
     @media screen and (max-width: 375px) {        
-         height: 80vh;
+        //  height: 80vh;
      }
     
 }
@@ -92,7 +92,7 @@ text-align: start;
 .goal-one-banner-section >h2{
     font-size:29px ;
 
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 500px) {
         font-size: 20px;
         width: 70%;
      }
