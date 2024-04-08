@@ -64,8 +64,8 @@ const GoalOne = () =>{
                         Ethiopia also grapples with substantial issues in this regard.
 
                         <br />
-                        Vulnerability to food insecurity in Africa adversely affects both individuals and economic growth:
-
+                        However, this comparative analysis merely scratches the surface of a profoundly entrenched challenge in 
+                        Africa, one that significantly hampers both individual well-being and economic development.
                 </div>
 
                 
