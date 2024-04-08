@@ -71,8 +71,8 @@ const GoalOne = () =>{
                 
 
                 <div className='goal-one-individual-impact'>        
-                    <div style={{width:'60%', margin:'0 auto'}}>
-                        <h2 style={{textAlign: 'center'}}>Impact on Individuals:</h2>
+                    <div>
+                        <h2>Impact on Individuals:</h2>
 
                         <b>Malnutrition: </b>Lack of access to nutritious food leads to malnutrition, stunting physical and 
                         cognitive development,  particularly in children.
@@ -92,7 +92,7 @@ const GoalOne = () =>{
                 <div className='goal-one-economic-impact'>   
                     <div>                  
 
-                        <h2 style={{textAlign: 'center'}}>Impact on Economic Growth: </h2>
+                        <h2>Impact on Economic Growth: </h2>
 
                         <b>Productivity Loss: </b>
                         Malnutrition and poor health resulting from food insecurity 

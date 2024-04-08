@@ -91,11 +91,24 @@ text-align: start;
     background: linear-gradient(270deg, #f3e9ff 50%, #fafafa 80%) ;
 }
 
+.goal-one-individual-impact >div{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.goal-one-individual-impact >h2{
+    text-align: center;
+}
+
 .goal-one-economic-impact{
     padding: 2%;     
     text-align: start;
     padding-bottom: 7%;
     background: linear-gradient(270deg, #fcf9ff 50%, #fff8f8 80%) ;
+}
+
+.goal-one-economic-impact >h2{
+    text-align: center;
 }
 
 .goal-one-economic-impact >div{
