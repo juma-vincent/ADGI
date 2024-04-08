@@ -20,6 +20,7 @@
 
     @media screen and (max-width: 500px) {
        flex-direction: column;
+       padding: 3% 2% 2% 3%;
     }
     
 }
@@ -31,6 +32,10 @@ padding: 10px 30px 30px 30px;
 border-radius: 10px;
 background-color: #eeeeee;
 text-align: start;
+
+@media screen and (max-width: 500px) {
+    width: 90%;
+ }
 }
 
 .ethiopia-wrapper{
@@ -40,6 +45,10 @@ padding:10px 30px 30px 30px;
 border-radius: 10px;
 background-color: #eeeeee;
 text-align: start;
+
+@media screen and (max-width: 500px) {
+    width: 90%;
+ }
 }
 
 .goal-one-banner-section{
@@ -86,6 +95,10 @@ text-align: start;
     margin-top: 4%;
     margin-bottom: 7%;
     font-size: 19px;
+
+    @media screen and (max-width: 500px) {
+        width: 90%;
+     }
 }
 
 .goal-one-individual-impact{
