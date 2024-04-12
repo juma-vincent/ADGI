@@ -1,4 +1,4 @@
-.goal-three-page-wrapper{
+.goal-four-page-wrapper{
     // background: linear-gradient(to right top, #af7fdd, #a493f0 ) ;
            
     // font-family: "Calibri," "";
@@ -6,7 +6,7 @@
   
 }
 
-.goal-three-page-content{    
+.goal-four-page-content{    
     font-size: 17px;
 }
 
@@ -55,7 +55,7 @@ text-align: start;
  }
 }
 
-.goal-three-banner-section{
+.goal-four-banner-section{
     height: 70vh;
     padding: 2%;
     background-image: linear-gradient(90deg, rgb(240, 240, 240) 51%, rgba(248, 248, 248, 0) 80%), url("../../assets/food-security2.jpg");
@@ -81,7 +81,7 @@ text-align: start;
     
 }
 
-.goal-three-banner-section >div{
+.goal-four-banner-section >div{
     width: 60%;  
     
     @media screen and (max-width: 500px) {
@@ -89,7 +89,7 @@ text-align: start;
     }
 }
 
-.goal-three-banner-section >h2{
+.goal-four-banner-section >h2{
     font-size:29px ;
 
     @media screen and (max-width: 500px) {
@@ -116,7 +116,7 @@ text-align: start;
      }
 }
 
-.goal-three-individual-impact{
+.goal-four-individual-impact{
     padding: 2%;    
     text-align: start;
     padding-bottom: 10%;
@@ -124,7 +124,7 @@ text-align: start;
 
 }
 
-.goal-three-individual-impact >div{
+.goal-four-individual-impact >div{
     width: 60%;
     margin: 0 auto;
 
@@ -134,22 +134,22 @@ text-align: start;
     
 }
 
-.goal-three-individual-impact >h2{
+.goal-four-individual-impact >h2{
     text-align: center;
 }
 
-.goal-three-economic-impact{
+.goal-four-economic-impact{
     padding: 2%;     
     text-align: start;
     padding-bottom: 7%;
     background: linear-gradient(270deg, #fcf9ff 50%, #fff8f8 80%) ;
 }
 
-.goal-three-economic-impact >h2{
+.goal-four-economic-impact >h2{
     text-align: center;
 }
 
-.goal-three-economic-impact >div{
+.goal-four-economic-impact >div{
     width:90%;
     margin: 0 auto;
     padding: 3%;
@@ -159,7 +159,7 @@ text-align: start;
     margin-bottom: -12%;
 }
 
-.goal-three-conclusion{
+.goal-four-conclusion{
    text-align: start;
     width: 60%;
     margin: 0 auto;    

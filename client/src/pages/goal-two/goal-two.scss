@@ -1,4 +1,4 @@
-.goal-three-page-wrapper{
+.goal-two-page-wrapper{
     // background: linear-gradient(to right top, #af7fdd, #a493f0 ) ;
            
     // font-family: "Calibri," "";
@@ -6,11 +6,11 @@
   
 }
 
-.goal-three-page-content{    
+.goal-two-page-content{    
     font-size: 17px;
 }
 
-.drc-south-sudan-wrapper{
+.nigeria-drc-wrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,7 +25,7 @@
     
 }
 
-.drc-wrapper {
+.nigeria-wrapper {
 width: 45%;
 box-shadow: 0px 3px 5px rgba(63, 46, 46, 0.4);
 padding: 10px 30px 30px 30px;
@@ -40,7 +40,7 @@ text-align: start;
  }
 }
 
-.south-sudan-wrapper{
+.drc-wrapper{
 width: 45%;
 box-shadow: 0px 3px 5px rgba(63, 46, 46, 0.4);
 padding:10px 30px 30px 30px;
@@ -55,7 +55,7 @@ text-align: start;
  }
 }
 
-.goal-three-banner-section{
+.goal-two-banner-section{
     height: 70vh;
     padding: 2%;
     background-image: linear-gradient(90deg, rgb(240, 240, 240) 51%, rgba(248, 248, 248, 0) 80%), url("../../assets/food-security2.jpg");
@@ -81,7 +81,7 @@ text-align: start;
     
 }
 
-.goal-three-banner-section >div{
+.goal-two-banner-section >div{
     width: 60%;  
     
     @media screen and (max-width: 500px) {
@@ -89,7 +89,7 @@ text-align: start;
     }
 }
 
-.goal-three-banner-section >h2{
+.goal-two-banner-section >h2{
     font-size:29px ;
 
     @media screen and (max-width: 500px) {
@@ -98,7 +98,7 @@ text-align: start;
      }
 }
 
-.drc-south-sudan-conclusion{
+.nigeria-drc-conclusion{
     display: flex;
     justify-self: center;
     width: 50%;
@@ -116,40 +116,20 @@ text-align: start;
      }
 }
 
-.goal-three-individual-impact{
-    padding: 2%;    
-    text-align: start;
-    padding-bottom: 10%;
-    background: linear-gradient(270deg, #f3e9ff 50%, #fafafa 80%) ;
 
-}
 
-.goal-three-individual-impact >div{
-    width: 60%;
-    margin: 0 auto;
-
-    @media screen and (max-width: 500px) {
-        width: 90%;
-     }
-    
-}
-
-.goal-three-individual-impact >h2{
-    text-align: center;
-}
-
-.goal-three-economic-impact{
+.goal-two-economic-impact{
     padding: 2%;     
     text-align: start;
     padding-bottom: 7%;
     background: linear-gradient(270deg, #fcf9ff 50%, #fff8f8 80%) ;
 }
 
-.goal-three-economic-impact >h2{
+.goal-two-economic-impact >h2{
     text-align: center;
 }
 
-.goal-three-economic-impact >div{
+.goal-two-economic-impact >div{
     width:90%;
     margin: 0 auto;
     padding: 3%;
@@ -159,7 +139,7 @@ text-align: start;
     margin-bottom: -12%;
 }
 
-.goal-three-conclusion{
+.goal-two-conclusion{
    text-align: start;
     width: 60%;
     margin: 0 auto;    
