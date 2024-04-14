@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from '../../components/header/header';
-import './goal-one.scss';
+import './goal-two.scss';
 
 
 
