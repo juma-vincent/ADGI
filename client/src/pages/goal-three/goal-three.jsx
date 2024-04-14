@@ -83,7 +83,7 @@ const GoalThree = () =>{
                         <b>Limited Access to Services:</b>
                         Inadequate infrastructure, particularly in remote and rural areas, limits access to essential services such as healthcare, education, and clean water. 
                         This hinders human capital development and productivity, further constraining economic growth.
-                        
+                        <br />
 
                         <b>Vulnerability to Shocks: </b>
                         Fragile infrastructure systems are more susceptible to natural disasters and other shocks. In countries like South Sudan and the 
@@ -100,19 +100,22 @@ const GoalThree = () =>{
                         ADGI seeks to work closely with local governments to identify priority infrastructure projects and advocate for their implementation. By 
                         collaborating with government agencies, ADGI can leverage resources and expertise to address infrastructure deficits effectively.
 
-                        
+                        <br />
                         <b>Mobilizing Resources: </b>
                         ADGI aims to mobilize funding and resources from international donors, philanthropic organizations, and private sector partners to support infrastructure 
                         development initiatives. This may involve establishing partnerships and fundraising campaigns to finance critical projects.
 
+                        <br />
                         <b> Implementing Community-Led Projects: </b>
                         ADGI aspires to empower local communities to take ownership of infrastructure projects through participatory approaches. 
                         By involving communities in planning, decision-making, and implementation, ADGI can ensure that projects are tailored to meet local needs and priorities.
 
+                        <br />
                         <b>Promoting Innovation and Technology: </b>
                         ADGI seeks to promote the use of innovative technologies and sustainable practices in infrastructure development. 
                         This may include promoting renewable energy solutions, green infrastructure, and digital technologies to enhance efficiency and resilience.
 
+                        <br />
                         <b>Capacity Building and Training: </b>
                         ADGI aims to provide capacity building and training programs to local stakeholders, including government officials, 
                         community leaders, and technical professionals. By enhancing skills and knowledge in infrastructure planning, management, and maintenance, ADGI can strengthen 
