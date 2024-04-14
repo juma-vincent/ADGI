@@ -116,27 +116,6 @@ text-align: start;
      }
 }
 
-.goal-three-individual-impact{
-    padding: 2%;    
-    text-align: start;
-    padding-bottom: 10%;
-    background: linear-gradient(270deg, #f3e9ff 50%, #fafafa 80%) ;
-
-}
-
-.goal-three-individual-impact >div{
-    width: 60%;
-    margin: 0 auto;
-
-    @media screen and (max-width: 500px) {
-        width: 90%;
-     }
-    
-}
-
-.goal-three-individual-impact >h2{
-    text-align: center;
-}
 
 .goal-three-economic-impact{
     padding: 2%;     
