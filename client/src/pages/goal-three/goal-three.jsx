@@ -19,11 +19,15 @@ const GoalThree = () =>{
                 <div className='goal-three-banner-section'>
                     <h2>2027 Goal No. 3: Infrastructure</h2>        
                     
-                    <div>The extent of infrastructure problems in Africa varies widely across the continent and can be 
+                    <div>
+                        The extent of infrastructure problems in Africa varies widely across the continent and can be 
                         assessed through various metrics, including access to electricity, roads, clean water, and internet connectivity. 
-                    <br />
-                    To provide a comparative perspective, let's examine the extent of infrastructure problems in two African countries:
-                    Democratic Republic of the Congo and South Sudan.
+                    
+                        <br />
+                        To provide a comparative perspective, let's examine the extent of infrastructure problems in two African countries:
+                        Democratic Republic of the Congo and South Sudan.
+                    </div>
+
                 </div>
 
                 <div className='drc-south-sudan-wrapper'>
@@ -79,8 +83,8 @@ const GoalThree = () =>{
                         <b>Limited Access to Services:</b>
                         Inadequate infrastructure, particularly in remote and rural areas, limits access to essential services such as healthcare, education, and clean water. 
                         This hinders human capital development and productivity, further constraining economic growth.
-                        </div>
-
+                        
+                        
                         <b>Vulnerability to Shocks: </b>
                         Fragile infrastructure systems are more susceptible to natural disasters and other shocks. In countries like South Sudan and the 
                         DRC, where infrastructure is often poorly maintained or non-existent, disruptions from events like floods or conflicts can have devastating effects on livelihoods and 
