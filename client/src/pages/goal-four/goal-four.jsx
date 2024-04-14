@@ -17,7 +17,7 @@ const GoalFour = () =>{
             <div className='goal-four-page-content'>
                 
                 <div className='goal-four-banner-section'>
-                    <h2>2027 Goal No. 4 : Infrastructure</h2>        
+                    <h2>2027 Goal No. 4 : Central Currency</h2>        
                     
                     <div>ADGI envisions a continent where borders no longer divide currencies, where trade flows 
                         seamlessly, and economic growth is accelerated. This vision embodies the essence of a single 
