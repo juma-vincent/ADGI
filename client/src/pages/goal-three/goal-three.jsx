@@ -32,7 +32,7 @@ const GoalThree = () =>{
 
                 <div className='drc-south-sudan-wrapper'>
                     <span className='drc-wrapper'>
-                        <h2>Democratic Republic of the Congo (DRC):</h2>
+                        <h2>Democratic Republic of Congo (DRC):</h2>
 
                         Infrastructure in the DRC faces significant challenges, largely due to decades of conflict, political instability, and underinvestment.
                         According to the World Bank, only about 15% of the population has access to electricity, and road networks are poorly developed, hindering trade and access to essential services.
@@ -84,7 +84,7 @@ const GoalThree = () =>{
                         Inadequate infrastructure, particularly in remote and rural areas, limits access to essential services such as healthcare, education, and clean water. 
                         This hinders human capital development and productivity, further constraining economic growth.
                         
-                        
+
                         <b>Vulnerability to Shocks: </b>
                         Fragile infrastructure systems are more susceptible to natural disasters and other shocks. In countries like South Sudan and the 
                         DRC, where infrastructure is often poorly maintained or non-existent, disruptions from events like floods or conflicts can have devastating effects on livelihoods and 
