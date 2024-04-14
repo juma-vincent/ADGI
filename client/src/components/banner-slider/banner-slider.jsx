@@ -21,19 +21,20 @@ imageUrl:'/images/food-security.jpg'},
 
 {title:'2026 Goal No. 2: HEALTH', 
 subtitle:'', 
-buttonText:'',
+buttonText:'Read More',
+link:'/goal-two',
 imageUrl:'/images/health.jpg'},
 
 {title:"2027 Goal No. 3: INFRASTRUCTURE", 
 subtitle:'', 
-buttonText:'',
-link:'/contact',
+buttonText:'Read More',
+link:'/goal-three',
 imageUrl:'/images/infrastructure.jpg'},
 
 {title:"2028 Goal No. 4: CENTRAL CURRENCY", 
 subtitle:'', 
-buttonText:'',
-link:'/contact',
+buttonText:'Read More',
+link:'/goal-four',
 imageUrl:'/images/central-currency.jpg'},
 
 
