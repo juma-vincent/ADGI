@@ -62,6 +62,7 @@ const GoalThree = () =>{
                 </div>
 
                 <div className='goal-three-economic-impact'>
+                    
                     <div> 
                         <h2>Impact on Economic Growth</h2>
 

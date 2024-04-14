@@ -10,7 +10,7 @@
     font-size: 17px;
 }
 
-.drc-south-sudan-wrapper{
+.financial-basket-wrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,35 +25,7 @@
     
 }
 
-.drc-wrapper {
-width: 45%;
-box-shadow: 0px 3px 5px rgba(63, 46, 46, 0.4);
-padding: 10px 30px 30px 30px;
-border-radius: 10px;
-background-color: #eeeeee;
-text-align: start;
 
-@media screen and (max-width: 500px) {
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 5%;
- }
-}
-
-.south-sudan-wrapper{
-width: 45%;
-box-shadow: 0px 3px 5px rgba(63, 46, 46, 0.4);
-padding:10px 30px 30px 30px;
-border-radius: 10px;
-background-color: #eeeeee;
-text-align: start;
-
-@media screen and (max-width: 500px) {
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 5%;
- }
-}
 
 .goal-four-banner-section{
     height: 70vh;
@@ -98,7 +70,7 @@ text-align: start;
      }
 }
 
-.drc-south-sudan-conclusion{
+.financial-basket-conclusion{
     display: flex;
     justify-self: center;
     width: 50%;
@@ -116,27 +88,7 @@ text-align: start;
      }
 }
 
-.goal-four-individual-impact{
-    padding: 2%;    
-    text-align: start;
-    padding-bottom: 10%;
-    background: linear-gradient(270deg, #f3e9ff 50%, #fafafa 80%) ;
 
-}
-
-.goal-four-individual-impact >div{
-    width: 60%;
-    margin: 0 auto;
-
-    @media screen and (max-width: 500px) {
-        width: 90%;
-     }
-    
-}
-
-.goal-four-individual-impact >h2{
-    text-align: center;
-}
 
 .goal-four-economic-impact{
     padding: 2%;     
@@ -164,7 +116,7 @@ text-align: start;
     width: 60%;
     margin: 0 auto;    
     padding-bottom: 6%;
-    padding-top: 2%;
+    padding-top: 8%;
     font-size: 18px;
    
 

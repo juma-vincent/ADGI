@@ -28,7 +28,7 @@ const GoalFour = () =>{
 
                 </div>
 
-                <div className='drc-south-sudan-wrapper'>
+                <div className='financial-basket-wrapper'>
 
                     <h2>Exploring the Potential of a Unified African Currency</h2>
 
@@ -64,13 +64,14 @@ const GoalFour = () =>{
 
                 </div>
 
-                <div className='drc-south-sudan-conclusion'>
+                <div className='financial-basket-conclusion'>
                 The lack of a single unifying currency in African countries presents several economic challenges:
                 </div>
 
                 <div className='goal-four-economic-impact'>
 
                     <div>
+                        <h2>Impact on Economic Growth</h2>
 
                         <b>Currency Fluctuations: </b>
                         Without a common currency, exchange rate fluctuations can create uncertainty and volatility, 
@@ -116,6 +117,7 @@ const GoalFour = () =>{
                         fragmentation, ADGI would garner support for regional integration efforts.
 
                         
+                        <br />
                         <b>Research and Development of Digital Currency Solutions: </b>
                         The Afrostar digital currency which is based on blockchain technology and owned by the ADGI founder, 
                         aims to establish a single unified currency for Africa, to facilitate cross-border transactions and 
@@ -123,10 +125,12 @@ const GoalFour = () =>{
                         to serve African countries, much like the Euro serves European nations as a singular currency.
 
 
+                        <br />
                         <b> Policy Development: </b>
                         ADGI aims to collaborate with African governments and regional institutions to develop policies and frameworks 
                         for the adoption of a unified currency, offering expertise and guidance on monetary integration strategies.
 
+                        <br />
                         <b>Capacity Building: </b>
                         ADGI plans provide training and capacity-building programs to central banks, financial institutions, and government 
                         officials, equipping them with the knowledge and skills needed to navigate the complexities of monetary integration 
